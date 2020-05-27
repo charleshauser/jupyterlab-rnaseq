@@ -1,0 +1,13 @@
+channels:
+  - conda-forge
+  - bioconda
+  - main
+  - r
+dependencies:
+  - python=3.7.6
+  - fastqc=0.11.9
+  - trimmomatic=0.39
+  - bioconductor-rtracklayer=1.46.0
+  - bioconductor-geoquery=2.54.0
+  - xorg-libxrender
+  - xorg-libxpm

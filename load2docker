@@ -1,0 +1,7 @@
+DOCKERHUB_USERNAME=chauser
+docker build -t $DOCKERHUB_USERNAME/jupyterlab-scipy-star:latest .
+docker images
+docker images
+docker push  chauser/jupyterlab-scipy-star
+docker pull chauser/jupyterlab-scipy-star:latest
+docker run --rm -it  -p 8888:8888 $DOCKERHUB_USERNAME/jupyterlab-scipy-star:latest
